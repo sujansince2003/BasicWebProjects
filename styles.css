@@ -8,6 +8,7 @@
 body {
   font-family: 'Muli', sans-serif;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -29,7 +30,8 @@ body {
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
-  flex: 0.5;
+   flex: 0.5;  
+   /* shorthand property for flex grow,shrink and basis here 0.5 is value for flex-grow   */
   margin: 10px;
   position: relative;
  transition: all 700ms ease-in;
